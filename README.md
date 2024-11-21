@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# Midpoint Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile app built using React Native and Expo to simplify meet-up planning. Midpoint helps users find activities, events, and places to meet halfway between two endpoints—ideal for friends, couples, and travelers.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Midpoint Mobile](#midpoint-mobile)
+  - [Table of Contents](#table-of-contents)
+  - [Why?](#why)
+  - [Overview](#overview)
+  - [Installation](#installation)
+  - [Usage](#usage)
 
-   ```bash
-   npm install
-   ```
+## Why?
 
-2. Start the app
+Planning meet-ups is often a challenge, especially when busy schedules and long distances are involved. Midpoint solves this by:
 
-   ```bash
-    npx expo start
-   ```
+- Offering curated suggestions for locations midway between two endpoints.
+- Simplifying decision-making with filters, price ranges, and a voting system.
+- Encouraging meaningful connections by saving time and effort.
 
-In the output, you'll find options to open the app in a
+Whether you’re online dating, reconnecting with friends, or planning a road trip, Midpoint makes it easier to meet halfway.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Overview
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Midpoint is designed to bridge the gap between planning and spontaneity. Users input two locations, and the app calculates a convenient midpoint, presenting tailored suggestions for activities, restaurants, and events. The voting system helps users finalize plans effortlessly.
 
-## Get a fresh project
+Key Features:
 
-When you're ready, run:
+- Midpoint calculation for user-to-user or user-to-destination.
+- Integration with Google Maps and Yelp for real-time recommendations.
+- Customizable filters (price range, activity type).
+- Voting system to streamline decision-making.
+- Notifications for new events and re-engagement.
 
-```bash
-npm run reset-project
-```
+## Installation
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+TBA
 
-## Learn more
+## Usage
 
-To learn more about developing your project with Expo, look at the following resources:
+Once the app is running, you can:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. **Input Locationse**: Add two locations (manual or GPS-based).
 
-## Join the community
+2. **Browse Suggestions**: Explore midpoint activities tailored to your preferences.
 
-Join our community of developers creating universal apps.
+-
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. **Vote**: Use the voting feature to decide on a location collaboratively.
+
+2. **Save Favorites**: Bookmark favorite spots for future reference.
+
+3. **Get Notifications**: Stay informed about new activities and events.
